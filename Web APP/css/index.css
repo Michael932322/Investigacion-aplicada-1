@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.encabezado{
+    background-color: gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
