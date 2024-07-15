@@ -8,3 +8,58 @@ div.encabezado{
     margin-right: 5%;
     text-align: center;
 }
+
+div.Contenedor1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+div.caja-dere{
+    flex: 1;
+}
+
+div.caja-dere img{
+    width: 500px;
+}
+
+div.caja-izq{
+    display: flex;
+}
+
+p.parrafo{
+    font-size: 20px;
+}
+
+@media (max-width: 1024px){
+
+    div.Contenedor1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    div.caja-dere{
+        flex-direction: column;
+    }
+
+    div.caja-dere img{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    div.caja-derecha img{
+        width: 1%;
+    }
+
+    div.caja-dere {
+      order: -1;
+    }
+
+    img.imagen2{
+        visibility: hidden;
+    }
+}
