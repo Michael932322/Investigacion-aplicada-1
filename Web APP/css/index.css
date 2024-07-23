@@ -9,9 +9,31 @@ div.encabezado{
     text-align: center;
 }
 
+#carruselExample {
+    max-width: 2%; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 1440px) {
+    #carruselExample {
+        max-width: 30%; 
+    }
+}
+
+@media (max-width: 1024px) {
+    #carruselExample {
+        max-width: 80%; 
+    }
+}
+
+@media (max-width: 768px) {
+    #carruselExample {
+        max-width: 90%; 
+    }
+}
 div.Contenedor1{
     display: flex;
-    justify-content: space-between;
+    text-align: justify;
     padding: 10px;
 }
 
@@ -20,15 +42,18 @@ div.caja-dere{
 }
 
 div.caja-dere img{
-    width: 500px;
+    width: 10px;
 }
 
 div.caja-izq{
-    display: flex;
+    display: inline-block; 
+    text-align: left; 
+    margin: 20px; 
 }
 
 p.parrafo{
     font-size: 20px;
+    margin-bottom: 20px; 
 }
 
 @media (max-width: 1024px){
@@ -43,8 +68,8 @@ p.parrafo{
     }
 
     div.caja-dere img{
-        margin-left: 0;
-        margin-top: 10px;
+        max-height: 10px; 
+        object-fit: cover; 
     }
 
 }
