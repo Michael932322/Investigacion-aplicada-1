@@ -37,6 +37,14 @@ div.Contenedor1{
     padding: 10px;
 }
 
+div.Contenedor2{
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
 div.caja-dere{
     flex: 1;
 }
@@ -59,6 +67,11 @@ p.parrafo{
 @media (max-width: 1024px){
 
     div.Contenedor1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    div.Contenedor2{
         flex-direction: column;
         align-items: flex-start;
     }
