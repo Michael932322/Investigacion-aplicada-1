@@ -10,25 +10,50 @@ div.encabezado{
 }
 
 #carruselExample {
-    max-width: 2%; 
+    max-width: 80%; 
     margin: 0 auto; 
 }
 
+.carousel-inner {
+    position: relative;
+    overflow: hidden; 
+    height: 400px;
+}
+.carousel-item {
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%; 
+    object-fit: cover; 
+}
 @media (max-width: 1440px) {
-    #carruselExample {
-        max-width: 30%; 
+    #carouselExample {
+        max-width: 40%; 
+    }
+    .carousel-inner {
+        max-height: 300px; 
     }
 }
 
 @media (max-width: 1024px) {
-    #carruselExample {
-        max-width: 80%; 
+    #carouselExample {
+        max-width: 60%; 
+    }
+    .carousel-inner {
+        max-height: 250px; 
     }
 }
 
 @media (max-width: 768px) {
-    #carruselExample {
-        max-width: 90%; 
+    #carouselExample {
+        max-width: 80%; 
+    }
+    .carousel-inner {
+        max-height: 200px; 
     }
 }
 div.Contenedor1{
