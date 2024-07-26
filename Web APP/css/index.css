@@ -35,6 +35,8 @@ div.Contenedor1{
     display: flex;
     text-align: justify;
     padding: 10px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
 }
 
 div.Contenedor2{
