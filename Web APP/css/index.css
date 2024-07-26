@@ -1,8 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-     color: white;
+    background: linear-gradient(gray, black);
 }
-
+h1{  
+     font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.644);;
+}
 div.encabezado{
     background-color: black;
     margin-left: 5%;
@@ -60,17 +64,19 @@ div.encabezado{
 div.Contenedor1{
     display: flex;
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
     font-family: "Courier New", monospace;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.644);
 }
 
 div.Contenedor2{
     display: flex;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
     font-family: "Courier New", monospace;
     font-weight: bold;
+    color: rgba(255, 255, 255, 0.644);
 }
 
 div.caja-dere{
