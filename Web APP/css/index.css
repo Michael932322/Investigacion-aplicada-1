@@ -1,9 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+     color: white;
 }
 
 div.encabezado{
-    background-color: gray;
+    background-color: black;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
