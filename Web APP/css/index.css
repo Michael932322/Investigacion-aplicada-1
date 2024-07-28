@@ -37,7 +37,7 @@ div.encabezado{
 }
 @media (max-width: 1440px) {
     #carouselExample {
-        max-width: 40%; 
+        max-width: 300%; 
     }
     .carousel-inner {
         max-height: 300px; 
@@ -46,7 +46,7 @@ div.encabezado{
 
 @media (max-width: 1024px) {
     #carouselExample {
-        max-width: 60%; 
+        max-width: 300%; 
     }
     .carousel-inner {
         max-height: 250px; 
@@ -55,7 +55,7 @@ div.encabezado{
 
 @media (max-width: 768px) {
     #carouselExample {
-        max-width: 80%; 
+        max-width: 300%; 
     }
     .carousel-inner {
         max-height: 200px; 
