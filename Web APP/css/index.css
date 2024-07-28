@@ -22,7 +22,7 @@ div.encabezado{
 .carousel-inner {
     position: relative;
     overflow: hidden; 
-    height: 400px;
+    height: 550px;
 }
 .carousel-item {
     justify-content: center; 
@@ -55,7 +55,7 @@ div.encabezado{
 
 @media (max-width: 768px) {
     #carouselExample {
-        max-width: 200%; 
+        max-width: 150%; 
     }
     .carousel-inner {
         max-height: 200px; 
