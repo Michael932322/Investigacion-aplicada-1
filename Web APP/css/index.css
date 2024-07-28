@@ -40,7 +40,7 @@ div.encabezado{
         max-width: 300%; 
     }
     .carousel-inner {
-        max-height: 300px; 
+        max-height: 500px; 
     }
 }
 
@@ -49,7 +49,7 @@ div.encabezado{
         max-width: 300%; 
     }
     .carousel-inner {
-        max-height: 250px; 
+        max-height: 300px; 
     }
 }
 
@@ -58,7 +58,7 @@ div.encabezado{
         max-width: 150%; 
     }
     .carousel-inner {
-        max-height: 200px; 
+        max-height: 300px; 
     }
 }
 div.Contenedor1{
